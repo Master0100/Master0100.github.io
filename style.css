@@ -1,0 +1,27 @@
+h1:hover {
+    cursor: pointer;
+    animation: move 1s infinite;
+    /* transform: scaleY(0.7); */
+    position: relative;
+}
+
+@keyframes move {
+    20%{
+        transform: scaleY(0.5);
+    }
+    25%{
+        top: -5px;
+    }
+    30%{
+        top: -10px;
+    }
+    35%{
+        top: -15px;
+    }
+    40%{
+        top: -20px;
+    }
+    45%{
+        transform: rotateX(400deg);
+    }
+}

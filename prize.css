@@ -1,0 +1,38 @@
+button {
+    position: relative;
+    top: 50px;
+    transform: scale(2, 2);
+    cursor: pointer;
+    animation: move 1s infinite;
+}
+
+@keyframes move{
+    50%{
+        transform: scale(4, 4);
+    }
+    100%{
+        transform: scale(2, 2);
+    }
+}
+
+#scamfreemessage {
+    animation: movetext 1s infinite ;
+}
+
+@keyframes movetext {
+    20%{
+        color: red;
+    }
+    40% {
+        color: green;
+    }
+    60% {
+        color: purple;
+    }
+    80%{
+        color: chocolate;
+    }
+    100%{
+        color: aqua;
+    }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome</title>
+</head>
+<body style="background-color: skyblue; font-family: cursive; color: red;">
+    <h1 style="text-align: center; color: darkgreen;">WELCOME</h1>
+    <form action="https://formspree.io/f/xqknnyad" method="POST">
+        <label for="first_name">First Name</label>
+        <input type="text" name="first_name" id="first_name" style="border: 2px solid; border-radius: 10px; color: blue; background-color: chocolate;">
+        <br>
+        <br>
+        <label for="last_name">Last Name</label>
+        <input type="text" name="last_name" id="last_name" style="border: 2px solid; border-radius: 10px; color: blue; background-color: chocolate;">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" value="johnsmith@gmail.com" required style="border: 2px solid; border-radius: 10px; color: blue; background-color: chocolate;">
+        <br>
+        <br>
+        <label for="Password">Password</label>
+        <input type="password" name="Password" id="Password" placeholder="johnsmith123" required style="border: 2px solid; border-radius: 10px; color: blue; background-color: chocolate;">
+        <br>
+        <br>
+        <label for="textarea">Your Message</label>
+        <br>
+        <textarea name="textarea" id="textarea" cols="30" rows="10" style="border: 2px solid; border-radius: 10px; color: blue; background-color: chocolate;"></textarea>
+        <br>
+        <br>
+        <label for="radio">Select your coding language</label>
+        <input type="radio" name="coding_language" id="radio_1" value="Python">Python
+                <input type="radio" name="coding_language" id="radio_2" value="Javascript">Javascript
+                        <input type="radio" name="coding_language" id="radio_3" value="Other">Other
+                                <input type="radio" name="coding_language" id="radio_4" value="None">None
+                                <br>
+                                <br>
+                                <select name="selection" id="select">
+                                    <option value="I am new here">Hello</option>
+                                    <option value="I do coding">Coding</option>
+                                    <option value="I am here">Hmmm</option>
+                                    <option value="I am zombie. Blah.">Zombie. Blah</option>
+                                    <option value="On a plane">I can fly</option>
+                                </select>
+                                <br>
+                                <br>
+        <a href="gift.html">
+        <button type="submit" name="submit" id="submit" value="submit" style="border: 2px solid; border-radius: 10px; color: blue; background-color: chocolate; cursor: pointer;">Submit</button>
+        </a>
+    </form>
+</body>
+</html>
